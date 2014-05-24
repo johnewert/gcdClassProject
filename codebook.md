@@ -125,6 +125,6 @@ The following terms used in variable names are briefly described below.  A more 
 | 67 | frequencyBodyGyroJerkMagnitudeMean                      | numeric   | normalized and bounded -1 to 1 |                                                              |
 | 68 | frequencyBodyGyroJerkMagnitudeStandardDeviation         | numeric   | normalized and bounded -1 to 1 |                                                              |
 
-** Transformations and Manipulations of the Data
+## Transformations and Manipulations of the Data
 
 The original dataset contains 10299 feature vectors of 561 variables derived from the experiments.  From this data, 66 variables containing mean or standard deviation calculations are selected.  After combining training and testing data, the data is recast to aggregate the variables by participant subject and activity type.  The tidy dataset contains means of the aggregated variables for each combination of participant subject and activity type. 
